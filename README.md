@@ -81,7 +81,7 @@
     
 # reminder:
 
-    every time for the change of app_design.ui have to run the convert_qrc_to_py.ipynb(for conda), then app.ipynb
+    every time for the change of app_design.ui have to run the "convert_qrc_to_py.ipynb"(for conda), move the "icons_rc.py" to root folder from "generated folder" & then run the app.ipynb.
     
  # screenshots:
  ![mainWindow](https://user-images.githubusercontent.com/18087611/58745138-d2d5b280-846e-11e9-93e3-140770c202eb.JPG)
