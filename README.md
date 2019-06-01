@@ -62,7 +62,13 @@
     username varchar(45) 
     useremail varchar(45) 
     userspassword varchar(45)
-
+# installation:
+    pip install mysqlclient
+    
+    pip install MySQLdb 
+    
+    pip install pyqt5ac  (to convert .qrc file to .py)
+    
  # screshots:
  ![mainWindow](https://user-images.githubusercontent.com/18087611/58745138-d2d5b280-846e-11e9-93e3-140770c202eb.JPG)
  ![userInfo](https://user-images.githubusercontent.com/18087611/58745139-d2d5b280-846e-11e9-8c27-a3a211a23fa0.JPG)
