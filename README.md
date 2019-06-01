@@ -33,7 +33,36 @@
     book_publisher varchar(45)
 
     book_price int(11)
-  
+    
+# 'category' table:
+    idcategory int(11) AI PK 
+    category_name varchar(45)
+    
+# 'client' table:
+    idclient int(11) AI PK 
+    clientName varchar(45) 
+    clientEmail varchar(45) 
+    clientNid varchar(45)
+    
+# 'dayoperations' table:
+    iddayoperations int(11) AI PK 
+    bookname varchar(45) 
+    type varchar(30) 
+    days int(11) 
+    fromDate datetime 
+    toDate datetime 
+    clientName varchar(45)
+    
+# 'publisher' table:
+    idpublisher int(11) AI PK 
+    publisher_name varchar(45)
+    
+# 'users' table:
+    id_users int(11) AI PK 
+    username varchar(45) 
+    useremail varchar(45) 
+    userspassword varchar(45)
+
  # screshots:
  ![mainWindow](https://user-images.githubusercontent.com/18087611/58745138-d2d5b280-846e-11e9-93e3-140770c202eb.JPG)
  ![userInfo](https://user-images.githubusercontent.com/18087611/58745139-d2d5b280-846e-11e9-8c27-a3a211a23fa0.JPG)
