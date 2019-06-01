@@ -79,6 +79,10 @@
     for conda : app.ipynb
     for python: app.py
     
+# reminder:
+
+    every time for the change of app_design.ui have to run the convert_qrc_to_py.ipynb(for conda), then app.ipynb
+    
  # screenshots:
  ![mainWindow](https://user-images.githubusercontent.com/18087611/58745138-d2d5b280-846e-11e9-93e3-140770c202eb.JPG)
  ![userInfo](https://user-images.githubusercontent.com/18087611/58745139-d2d5b280-846e-11e9-8c27-a3a211a23fa0.JPG)
